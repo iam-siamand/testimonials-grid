@@ -134,8 +134,12 @@ main .review-5{
 
 /* responsivity */
 @media screen and (max-width:1200px){
+    body{
+        overflow: initial;
+    }
     main{
         max-width: 1000px;
+        overflow-y: scroll;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows:1fr 1fr 1fr;
         grid-template-areas: "review-1 review-1 review-2"
