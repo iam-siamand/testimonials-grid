@@ -27,6 +27,7 @@
 }
 body {
     /* Change from fixed 100vh to auto-min height to allow scrolling on mobile */
+    overflow: hidden;
     min-height: 100vh;
     height: auto; 
     margin: 0;
